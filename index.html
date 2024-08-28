@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Alarm Clock</h1>
+        <div class="clock">
+            <div class="time" id="time">00:00:00</div>
+            <div class="buttons">
+                <button id="setAlarmBtn">Set Alarm</button>
+                <button id="stopAlarmBtn" disabled>Stop Alarm</button>
+            </div>
+        </div>
+
+
+        <div class="alarm-form">
+            <input type="time" id="alarmTime">
+            <button id="saveAlarmBtn">Save Alarm</button>
+        </div>
+    </div>
+    <audio id="alarmSound" src="Sound The Alarm - TrackTribe.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
